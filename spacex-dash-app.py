@@ -95,7 +95,7 @@ if __name__ == '__main__':
 """
 1. KSC LC-39A has the largest successful launches with the proportion 41.7% of all sites.
 2. KSC LC-39A has the highest launch success rate (76.9%).
-3. Launch success rate is the highest when payload is in range 2k-4k (kg).
-4. Launch success rate is the lowest when payload is in range 8k-10k (kg).
+3. Launch success rate is the highest when payload is in range 2k-6k (kg).
+4. Launch success rate is the lowest when payload is in range 6k-10k (kg).
 5. F9 Booster version of FT has the highest launch success rate.
 """
