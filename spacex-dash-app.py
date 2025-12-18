@@ -71,7 +71,7 @@ def get_scatter_plot(entered_site, entered_range):
     # Filter data
     if entered_site == 'ALL':    
         filtered_data = spacex_df[(spacex_df['Payload Mass (kg)'] >= entered_range[0]) & 
-                                  (spacex_df['Payload Mass (kg)']) <= entered_range[1]]
+                                  (spacex_df['Payload Mass (kg)'] <= entered_range[1])]
         title = 'Correlation between Payload and Success for all Sites'
     else:
         filtered_data = spacex_df[(spacex_df['Payload Mass (kg)'] >= entered_range[0]) & 
